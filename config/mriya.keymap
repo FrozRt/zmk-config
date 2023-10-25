@@ -39,7 +39,7 @@
   &kp F1         &kp F2        &kp F3              &kp UP_ARROW      &kp F12              &kp ENTER        &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
   &kp HOME       &kp END       &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp DELETE       &kp PAGE_UP    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp C_PREVIOUS        &kp C_NEXT
   &kp LC(SPACE)  &kp LA(LGUI)  &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &kp BACKSPACE    &kp PAGE_DOWN  &kp N7        &kp N8        &kp N9        &kp C_VOLUME_DOWN     &kp C_VOLUME_UP
-                               &trans              &trans            &trans               &trans           &trans         &trans        &trans        &kp C_PLAY
+                               &trans              &trans            &trans               &trans           &trans         &kp KP_DOT    &kp KP_COMMA  &kp C_PLAY
             >;
         };
 
