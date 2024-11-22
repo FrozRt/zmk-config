@@ -41,10 +41,10 @@
 
         raise_layer {
             bindings = <
-  &trans          &trans  &kp LESS_THAN   &kp UNDERSCORE  &kp GREATER_THAN  &kp GRAVE    &trans       &kp LEFT_BRACKET      &kp EQUAL        &kp RIGHT_BRACKET      &trans  &trans
-  &trans          &trans  &kp LEFT_BRACE  &kp MINUS       &kp RIGHT_BRACE   &kp PLUS     &kp PERCENT  &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp RIGHT_PARENTHESIS  &trans  &trans
-  &kp LEFT_SHIFT  &trans  &kp STAR        &kp DOLLAR      &kp AT            &kp CARET    &trans       &trans                &kp AMPERSAND    &trans                 &trans  &trans
-                          &trans          &trans          &trans            &trans       &trans       &trans                &trans           &trans
+  &kp LC(LA(NON_US_BACKSLASH))  &kp LA(LG(MINUS))  &kp LESS_THAN   &kp UNDERSCORE  &kp GREATER_THAN  &kp GRAVE    &trans       &kp LEFT_BRACKET      &kp EQUAL        &kp RIGHT_BRACKET      &kp LC(LA(LEFT_BRACKET))  &kp LC(LA(RIGHT_BRACKET))
+  &kp LC(LA(SLASH))             &trans             &kp LEFT_BRACE  &kp MINUS       &kp RIGHT_BRACE   &kp PLUS     &kp PERCENT  &kp LEFT_PARENTHESIS  &kp EXCLAMATION  &kp RIGHT_PARENTHESIS  &kp LC(LA(SQT))           &kp LC(LA(COMMA))
+  &kp LEFT_SHIFT                &trans             &kp STAR        &kp DOLLAR      &kp AT            &kp CARET    &trans       &trans                &kp AMPERSAND    &trans                 &kp LC(LA(PERIOD))        &kp LC(LA(EQUAL))
+                                                   &trans          &trans          &trans            &trans       &trans       &trans                &trans           &trans
             >;
         };
 
